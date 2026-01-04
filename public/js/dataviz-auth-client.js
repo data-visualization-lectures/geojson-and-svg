@@ -74,6 +74,7 @@ const supabase = window.supabase ? window.supabase.createClient(SUPABASE_URL, SU
 // 外部公開（リファクタリング対応）
 if (supabase) {
   window.datavizSupabase = supabase;
+  window.datavizApiUrl = API_BASE_URL;
 }
 
 
