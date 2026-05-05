@@ -3,6 +3,12 @@
   publish = "dist"
 
 [[redirects]]
+  from = "https://geojson-and-svg.dataviz.jp/*"
+  to = "https://geojson-and-svg.dataprep.jp/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
